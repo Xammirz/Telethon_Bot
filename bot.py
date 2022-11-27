@@ -6,7 +6,7 @@ from telethon import TelegramClient, events
 from telethon.tl.custom import Message
 import texts
 api_id = 11877746
-api_hash = 'e8812a280b09564b137b1de49ce06b09'
+api_hash = ''
 client = TelegramClient('tests', api_id, api_hash)
 
 with TelegramClient('how_m', api_id, api_hash) as client:
